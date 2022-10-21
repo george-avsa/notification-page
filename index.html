@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="notification-block">
+    <div class="notification-block__content">
+
+        <div class="header">
+          <div class="header_left">
+            <h1 class="header__title">Notifications</h1>
+            <div class="header__amount">3</div>
+          </div>
+        <div class="header__btn">Mark all as read</div>
+      </div>
+      
+      <div class="notification notification--active">
+        <img class="notification__photo" src="./assets/images/avatar-mark-webber.webp">
+        <div class="notification__text">
+          <div class="notification__description">
+            <p><b class="notification__author">Mark Webber</b> reacted to your recent post <b class="notification__description--bold">My first tournament today!</b>
+              <b class="notification__status"> &#8226 </b>
+              <p>
+              </div>
+              <p class="notification__time">1m ago</p>
+              <div class="notification__message" style="display: none">
+                Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.
+              </div>
+            </div>
+          </div>
+          
+          <div class="notification notification--active">
+            <img class="notification__photo" src="./assets/images/avatar-angela-gray.webp">
+        <div class="notification__text">
+          <div class="notification__description">
+            <p><b class="notification__author">Angela Grey</b> followed you
+              <b class="notification__status"> &#8226 </b>
+              <p>
+              </div>
+              <p class="notification__time">5m ago</p>
+            </div>
+          </div>
+          
+          <div class="notification notification--active">
+            <img class="notification__photo" src="./assets/images/avatar-jacob-thompson.webp">
+            <div class="notification__text">
+              <div class="notification__description">
+                <p><b class="notification__author">Jacob Thompson</b> has joined yuor group <b class="notification__description--link">Chess Club</b>
+                  <b class="notification__status"> &#8226 </b>
+                  <p>
+                  </div>
+                  <p class="notification__time">1 day ago</p>
+                </div>
+              </div>
+              
+              <div class="notification">
+                <img class="notification__photo" src="./assets/images/avatar-rizky-hasanuddin.webp">
+                <div class="notification__text">
+                  <div class="notification__description">
+                    <p><b class="notification__author">Rizky Hasanuddin</b> sent you a private message
+                    </p>
+                  </div>
+                      <p class="notification__time">5 days ago</p>
+                      <div class="notification__message">
+                        Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.
+                      </div>
+                </div>
+              </div>
+                  
+                  <div class="notification">
+                    <img class="notification__photo" src="./assets/images/avatar-kimberly-smith.webp">
+                    <div class="notification__text notification__text--nowrap">
+                      <div class="notification__description">
+                        <p><b class="notification__author">Kimberly Smith</b> commented on your picture</p>
+                        <p class="notification__time">1 week ago</p>
+                      </div>
+                        <img src="./assets/images/image-chess.webp" alt="" class="notification__image">
+                    </div>
+                  </div>
+                    
+          <div class="notification">
+          <img class="notification__photo" src="./assets/images/avatar-nathan-peterson.webp">
+          <div class="notification__text">
+            <div class="notification__description">
+              <p><b class="notification__author">Nathan Peterson</b> reacted to your recent post 
+                <b>5 en-game strategies to increase your win rate</b>
+                <p> 
+                </div>
+                <p class="notification__time">1 week ago</p>
+              </div>
+            </div>
+          
+          <div class="notification">
+            <img class="notification__photo" src="./assets/images/avatar-anna-kim.webp">
+            <div class="notification__text">
+              <div class="notification__description">
+                <p><b class="notification__author">Anna Kim</b> left the group
+                  <b class="notification__description--link">Chess Club</b>
+                  <p> 
+                  </div>
+                  <p class="notification__time">2 weeks ago</p>
+                </div>
+              </div>
+              
+            </div>
+          </section>
+          
+          <script src="./app.js"></script>
+        </body>
+        </html>
